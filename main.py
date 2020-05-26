@@ -17,7 +17,7 @@ for attempts in range(qtns):
 
   #checking for the correct answer then incrementing the count!
   if userAnswer == answer:
-    count = count + 1
+    count = count + 1 #incrementing count of correct answer
     print("Correct")
   else:
     print("Incorrect")
