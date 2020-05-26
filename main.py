@@ -13,6 +13,7 @@ for attempts in range(qtns):
   answer = num1 + num2 #storing the correct value
 
   print('Question ', attempts + 1)
+  #storing the inputed value in an integer
   userAnswer = int(input(str(num1) + " + " + str(num2) + " = ? Type your answer here: "))
 
   #checking for the correct answer then incrementing the count!
